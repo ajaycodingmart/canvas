@@ -1,0 +1,41 @@
+.mainFrame{
+  background-color: #002b36;
+  height: 100vh;
+}
+.toolbarStyle{
+  background-color: blue;
+}
+.divisions{
+  width: 33.33%;
+  height: 100vh;
+  display: inline-block;
+}
+.paperDiv{
+  width: 100%;
+  height: 80vh;
+  min-height: 100px;
+  overflow-y: scroll;
+}
+.right{
+  float: right;
+}
+.textHeads{
+  margin: 30px;
+    color: white;
+    text-shadow: 1px 1px 17px;
+    display: inline-block;
+}
+.descriptionText{
+  padding: 10px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow:hidden;
+    text-overflow:ellipsis;
+}
+.descriptionLabel{
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
